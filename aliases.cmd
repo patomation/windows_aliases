@@ -10,7 +10,18 @@ doskey ll=dir
 doskey touch=copy nul $* > nul
 
 :: md - mkdir - included in Windows 10
-:: rm - rmdir - included in Windows 10
+:: rmdir - included in Windows 10
+
+:: Other Unix Commands
+:: arp - included in windows
+doskey ln=asign $*
+doskey file=assoc $*
+doskey rm=rmdir $*
+doskey rmr=rmdir /s $*
+doskey cp=copy $*
+doskey cpr=xcopy $*
+doskey mv=move $*
+
 
 :: DIRECTORY NAVIGATION
 doskey ..=cd ..
