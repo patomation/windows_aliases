@@ -1,5 +1,29 @@
 @echo off
 
+::CUSTOM COMMANDs
+doskey edit=vim C:\Users\patrick\x\windows_aliases\aliases.cmd
+
+doskey tron=python C:\Users\patrick\x\tron $*
+doskey x=cd x\$*
+doskey w=cd C:\Users\patrick\x\windows_aliases
+doskey t=cd C:\Users\patrick\x\tron
+
+
+::React Native Dev
+doskey n=cd C:\Users\patrick\x\notes
+doskey r=npm run reload
+doskey m=npm run menu
+doskey s=react-native run-android
+
+
+:: Make running python easier
+doskey p=python $*.py
+
+:: Open file browser
+doskey open=start $*
+
+
+
 :: Clear
 doskey clear=cls
 
