@@ -2,6 +2,7 @@
 
 ::CUSTOM COMMANDs
 doskey edit=vim C:\Users\patrick\x\windows_aliases\aliases.cmd
+doskey utility=node C:\Users\patrick\x\utility-cli $*
 
 doskey tron=python C:\Users\patrick\x\tron $*
 doskey x=cd x\$*
